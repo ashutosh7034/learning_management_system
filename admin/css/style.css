@@ -1,0 +1,91 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+
+/* This Line is to import Google font style */
+.content {
+	width: 960px;
+	margin: 20px auto
+}
+
+.main {
+	float: left;
+	width: 650px;
+	margin-top: 80px
+}
+
+#progressbar {
+	margin: 0;
+	padding: 0;
+	font-size: 18px
+}
+
+#active1 {
+	color: red
+}
+
+fieldset {
+	display: none;
+	width: 100%;
+	padding: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 25px 1px gray
+}
+
+#first {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 25px 1px gray
+}
+
+input[type=text],
+input[type=password],
+select {
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px;
+
+}
+
+label {
+	margin: 10px 0;
+
+	padding: 5px;
+}
+
+textarea {
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px;
+
+}
+
+input[type=submit],
+input[type=button] {
+	width: 120px;
+	margin: 15px 25px;
+	padding: 5px;
+	height: 40px;
+	background-color: #a0522d;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-family: 'Droid Serif', serif
+}
+
+h2,
+p {
+	text-align: center;
+	font-family: 'Droid Serif', serif
+}
+
+li {
+	margin-right: 52px;
+	display: inline;
+	color: #c1c5cc;
+	font-family: 'Droid Serif', serif
+}
